@@ -9,9 +9,7 @@ function dragover (event){
     event.preventDefault();
 }
 function dragstart(event){
-    
     event.target.classList.add('hold')
-
 }
 function dragend(event){
     event.target.classList.remove('hold')
